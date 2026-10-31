@@ -259,7 +259,7 @@ Traceback (most recent call last):
 TypeError: cannot convert dictionary update sequence element #0 to a sequence
 >>> bool(s2)
 True
->>> bool({})
+>>> bool(set())
 False
 >>> d={1:5,2:6,3:7,4:8}
 >>> int(d)
@@ -289,6 +289,8 @@ TypeError: complex() first argument must be a string or a number, not 'dict'
 {1: 5, 2: 6, 3: 7, 4: 8}
 >>> bool(d)
 True
+>>> bool({})
+False
 >>> b=True
 >>> int(b)
 1
