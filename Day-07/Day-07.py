@@ -174,4 +174,3 @@ True
 >>> all(l)
 False
 >>> 
-
